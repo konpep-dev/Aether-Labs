@@ -1,223 +1,246 @@
 <div align="center">
 
-# ⚛️ Aether Labs
+<img src="public/icon.svg" alt="Aether Labs" width="120" height="120">
 
-### Scientific Simulation Suite
+# Aether Labs
 
-[![Made in Greece](https://img.shields.io/badge/Made%20in-Greece-blue?style=for-the-badge)](https://github.com/konpep-dev)
-[![Electron](https://img.shields.io/badge/Electron-28-47848F?style=for-the-badge&logo=electron&logoColor=white)](https://www.electronjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+### ✦ Scientific Simulation Suite ✦
 
-<img src="public/icon.svg" alt="Aether Labs Logo" width="150" height="150">
+<br>
 
-**An interactive physics simulation platform designed for students, educators, and science enthusiasts.**
+[![Version](https://img.shields.io/badge/version-1.0.0-00e5ff?style=flat-square)](https://github.com/konpep-dev/aether-labs/releases)
+[![Electron](https://img.shields.io/badge/Electron-28-47848F?style=flat-square&logo=electron&logoColor=white)](https://www.electronjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
 
-[Download](#-installation) • [Features](#-features) • [Screenshots](#-screenshots) • [Development](#-development)
+<br>
+
+**Explore the beauty of physics through interactive simulations.**
+
+*Designed for students, educators, and science enthusiasts.*
+
+<br>
+
+[⬇️ Download](#-quick-start) &nbsp;•&nbsp; [✨ Features](#-simulations) &nbsp;•&nbsp; [🛠️ Build](#-development) &nbsp;•&nbsp; [📖 Docs](#-physics-reference)
+
+<br>
+
+---
+
+<br>
 
 </div>
 
----
+## 🎯 Overview
+
+**Aether Labs** is a modern desktop application that brings physics concepts to life through beautiful, real-time visualizations. Whether you're studying quadratic equations, exploring gravitational systems, or understanding wave interference, Aether Labs provides an intuitive and engaging learning experience.
+
+<br>
+
+## 🔬 Simulations
+
+<table>
+<tr>
+<td width="50%">
+
+### 📊 Quadratic Explorer
+Visualize and analyze quadratic equations in real-time.
+
+- Interactive parabola with draggable parameters
+- Discriminant, roots, vertex & axis of symmetry
+- Focus point & directrix visualization
+- Derivative & area calculations
+- 14+ presets including Golden Ratio & Physics
+
+</td>
+<td width="50%">
+
+### 🚀 Reentry Simulator
+Experience atmospheric reentry physics.
+
+- Spacecraft trajectory simulation
+- Heat shield & thermal load analysis
+- G-Force monitoring
+- Aerodynamic drag calculations
+- Real-time telemetry display
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🌍 Gravity Sandbox 3D
+Create and explore gravitational systems.
+
+- N-Body gravitational simulation
+- Real-time orbital mechanics
+- WASD camera controls + mouse orbit
+- Energy & velocity tracking
+- Collision detection (merge/bounce)
+
+</td>
+<td width="50%">
+
+### 🌊 Wave Optics
+Understand light interference patterns.
+
+- Double-slit, single-slit & diffraction grating
+- Real-time interference visualization
+- Measurement tools & intensity analysis
+- Theoretical pattern comparison
+- Multiple color modes
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ## ✨ Features
 
-### 📊 Quadratic Explorer
-- Real-time parabola visualization with interactive controls
-- Advanced analysis: discriminant, roots, vertex, focus, directrix
-- Derivative and area calculations
-- Multiple presets (Golden Ratio, Perfect Square, Physics equations)
-- Snapshot comparison tool
-
-### 🚀 Orbital Reentry Simulator
-- Atmospheric reentry physics simulation
-- Heat shield and thermal load calculations
-- G-Force monitoring
-- Aerodynamic drag analysis
-
-### 🌍 Gravity Sandbox 3D
-- N-Body gravitational simulation
-- Real-time orbital mechanics
-- Create and interact with planetary systems
-- Energy and velocity tracking
-- WASD camera controls
-
-### 🌊 Wave Optics
-- Double-slit, single-slit, and diffraction grating simulations
-- Real-time interference pattern visualization
-- Measurement tools with intensity analysis
-- Theoretical diffraction pattern comparison
-- Multiple color modes (Cyan, Heatmap, Rainbow, Mono)
-
-### 🛠️ Additional Features
-- 📝 **Notes System** - Take notes during simulations with author names and timestamps
-- 🌐 **Web Search** - Quick access to physics resources (Wikipedia, Khan Academy, Wolfram Alpha, etc.)
-- 🌍 **Bilingual** - Full support for English and Greek
-- 📊 **FPS Counter** - Performance monitoring
-- 🎨 **Modern UI** - Beautiful dark theme with glassmorphism effects
-
----
-
-## 📸 Screenshots
-
-<div align="center">
 <table>
 <tr>
-<td align="center"><b>Launcher</b></td>
-<td align="center"><b>Quadratic Explorer</b></td>
+<td>📝</td>
+<td><b>Notes System</b></td>
+<td>Take notes during simulations with timestamps and author names</td>
 </tr>
 <tr>
-<td><img src="screenshots/launcher.png" width="400"></td>
-<td><img src="screenshots/quadratic.png" width="400"></td>
+<td>🌐</td>
+<td><b>Web Search</b></td>
+<td>Quick access to Wikipedia, Khan Academy, Wolfram Alpha & more</td>
 </tr>
 <tr>
-<td align="center"><b>Gravity Sandbox</b></td>
-<td align="center"><b>Wave Optics</b></td>
+<td>🌍</td>
+<td><b>Bilingual</b></td>
+<td>Full support for English and Greek languages</td>
 </tr>
 <tr>
-<td><img src="screenshots/gravity.png" width="400"></td>
-<td><img src="screenshots/optics.png" width="400"></td>
+<td>📊</td>
+<td><b>FPS Counter</b></td>
+<td>Monitor performance in real-time</td>
+</tr>
+<tr>
+<td>🎨</td>
+<td><b>Modern UI</b></td>
+<td>Beautiful dark theme with glassmorphism effects</td>
+</tr>
+<tr>
+<td>💾</td>
+<td><b>Auto-save</b></td>
+<td>Your notes and settings are automatically saved</td>
 </tr>
 </table>
-</div>
 
----
+<br>
 
-## 💾 Installation
+## ⬇️ Quick Start
 
-### Windows
-1. Download the latest release from [Releases](https://github.com/konpep-dev/aether-labs/releases)
-2. Run `Aether Labs-Setup-x.x.x.exe`
-3. The app installs automatically and creates desktop/start menu shortcuts
+### Windows Installation
 
-### From Source
+1. Download the latest **[Aether Labs Setup](https://github.com/konpep-dev/aether-labs/releases/latest)**
+2. Run the installer (one-click install)
+3. Launch from Desktop or Start Menu
+
+> 💡 The installer creates shortcuts automatically and runs the app after installation.
+
+<br>
+
+### Build from Source
+
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/konpep-dev/aether-labs.git
 cd aether-labs
 
 # Install dependencies
 npm install
 
-# Run in development mode
+# Development mode
 npm run electron:dev
 
-# Build for production
-npm run package:win    # Windows
-npm run package:mac    # macOS
-npm run package:linux  # Linux
+# Build installer
+npm run package:win      # Windows
+npm run package:mac      # macOS  
+npm run package:linux    # Linux
 ```
 
----
+<br>
 
-## 🔧 Development
+## 📖 Physics Reference
 
-### Prerequisites
-- Node.js 18+
-- npm 9+
+<div align="center">
+
+| Formula | Description |
+|:-------:|:------------|
+| `x = (-b ± √Δ) / 2a` | Quadratic Formula |
+| `Δ = b² - 4ac` | Discriminant |
+| `F = G(m₁m₂) / r²` | Gravitational Force |
+| `ψ = A·sin(kx - ωt)` | Wave Equation |
+| `Δ = d·sin(θ) = mλ` | Interference Condition |
+
+</div>
+
+<br>
+
+## 🛠️ Development
+
+### Tech Stack
+
+| Category | Technology |
+|:---------|:-----------|
+| Frontend | React 19, TypeScript, Tailwind CSS |
+| Charts | Recharts |
+| Desktop | Electron 28 |
+| Build | Vite, electron-builder |
 
 ### Project Structure
+
 ```
 aether-labs/
-├── components/          # React components
-│   ├── Controls.tsx
-│   ├── QuadraticChart.tsx
-│   ├── GravitySandbox.tsx
-│   ├── WaveOptics.tsx
-│   ├── ReentrySimulator.tsx
-│   └── ...
-├── electron/            # Electron main process
-│   ├── main.ts
-│   └── preload.ts
-├── utils/               # Utility functions
-│   ├── math.ts
-│   └── translations.ts
-├── public/              # Static assets
-│   ├── icon.ico
-│   ├── icon.png
-│   └── icon.svg
-├── App.tsx              # Main React app
-├── index.tsx            # Entry point
-└── types.ts             # TypeScript types
+├── components/     # React components (14 files)
+├── electron/       # Main process & preload
+├── utils/          # Math, translations, physics
+├── public/         # Icons & assets
+├── App.tsx         # Main application
+└── types.ts        # TypeScript definitions
 ```
 
-### Scripts
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start Vite dev server |
-| `npm run electron:dev` | Run Electron in development |
-| `npm run build` | Build for production |
-| `npm run package:win` | Create Windows installer |
-| `npm run package:mac` | Create macOS installer |
-| `npm run package:linux` | Create Linux AppImage |
-
----
-
-## 🧮 Physics Formulas
-
-### Quadratic Equation
-```
-x = (-b ± √(b²-4ac)) / 2a
-```
-
-### Gravitational Force
-```
-F = G(m₁m₂) / r²
-```
-
-### Wave Equation
-```
-ψ = A·sin(kx - ωt)
-```
-
-### Double-Slit Interference
-```
-Δ = d·sin(θ) = mλ
-I = I₀·cos²(πd·sinθ/λ)
-```
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React 19, TypeScript, Tailwind CSS
-- **Charts**: Recharts
-- **Desktop**: Electron 28
-- **Build**: Vite, electron-builder
-- **Icons**: Custom SVG
-
----
+<br>
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+```bash
+# Fork → Clone → Branch → Code → Push → PR
+git checkout -b feature/amazing-feature
+git commit -m "Add amazing feature"
+git push origin feature/amazing-feature
+```
 
----
+<br>
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
----
-
-## 👨‍💻 Author
-
-**konpep**
-
-- GitHub: [@konpep-dev](https://github.com/konpep-dev)
+<br>
 
 ---
 
 <div align="center">
 
-### 🇬🇷 Made with ❤️ in Greece
+<br>
 
-**© 2026 Aether Labs. All rights reserved.**
+**Built with ❤️ in Greece**
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-konpep--dev-181717?style=flat-square&logo=github)](https://github.com/konpep-dev)
+
+<br>
+
+<sub>© 2026 Aether Labs. All rights reserved.</sub>
 
 </div>
