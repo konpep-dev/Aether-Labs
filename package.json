@@ -1,0 +1,82 @@
+{
+  "name": "aether-labs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Physics Simulation Suite - Interactive simulations for learning physics and mathematics",
+  "author": "konpep <konpep@aetherlabs.gr>",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "dev:electron": "concurrently \"vite\" \"npm run electron:dev\"",
+    "electron:dev": "tsc -p electron/tsconfig.json && electron .",
+    "build": "vite build && tsc -p electron/tsconfig.json",
+    "build:electron": "npm run build && electron-builder",
+    "package:win": "npm run build && electron-builder --win",
+    "package:mac": "npm run build && electron-builder --mac",
+    "package:linux": "npm run build && electron-builder --linux",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^6.22.0",
+    "recharts": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^8.2.2",
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1",
+    "sharp": "^0.34.5",
+    "to-ico": "^1.1.5",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "build": {
+    "appId": "com.aetherlabs.app",
+    "productName": "Aether Labs",
+    "copyright": "Copyright © 2026 Aether Labs - Made in Greece by konpep",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64", "ia32"]
+        }
+      ],
+      "icon": "public/icon.ico",
+      "publisherName": "Aether Labs",
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "public/icon.png"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": "public/icon.png",
+      "category": "Education"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "installerIcon": "public/icon.ico",
+      "uninstallerIcon": "public/icon.ico",
+      "installerHeaderIcon": "public/icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Aether Labs",
+      "runAfterFinish": true,
+      "installerSidebar": null,
+      "license": null
+    }
+  }
+}
