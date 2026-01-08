@@ -31,7 +31,7 @@ Thank you for your interest in contributing to Aether Labs! 🎉
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/aether-labs.git
+git clone https://github.com/konpep-dev/aether-labs.git
 cd aether-labs
 
 # Install dependencies
